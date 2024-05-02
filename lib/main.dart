@@ -6,40 +6,12 @@ import 'local_storage.dart';
 import 'pages/home_page.dart';
 import 'package:flutter/material.dart';
 
-final chatGpt =
-    ChatGpt(apiKey: "sk-proj-qw4SNXYpvOdCypGpBgk1T3BlbkFJqRxqUY4YRtjOigtmMZta");
-
-/*void myFunction() {
-  String fullText = "";
-  // Use 'then' to handle the Future and get the Stream
-  chatGpt.createChatCompletionStream(testRequest).then((stream) {
-    // Listen to the stream
-    stream?.listen((StreamCompletionResponse response) {
-      final choices = response.choices;
-      if (choices!.isNotEmpty) {
-        final choice = choices.first;
-        final text = choice.delta?.content ?? "";
-
-        fullText = fullText + text;
-        print(fullText);
-      } else {
-        print("Received empty response");
-      }
-    }, onError: (error) {
-      print("An error occurred: $error");
-    }, onDone: () {
-      print("Stream completed.");
-    });
-  }).catchError((error) {
-    print("An error occurred while setting up the stream: $error");
-  });
-}*/
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await LocalStorage.init();
   final chatGpt = ChatGpt(
-      apiKey: "sk-proj-qw4SNXYpvOdCypGpBgk1T3BlbkFJqRxqUY4YRtjOigtmMZta");
+    apiKey: "your-api-key",
+  );
   runApp(BlocProvider(
     create: (context) => ChatBloc(chatGpt: chatGpt),
     child: const MyApp(),
