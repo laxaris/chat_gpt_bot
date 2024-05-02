@@ -1,0 +1,1097 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Darwin - 23.4.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/3.29.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-g++-13 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-g++-13 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/3.29.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-bHhf1T"
+      binary: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-bHhf1T"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-bHhf1T'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d3fbe/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d3fbe.dir/build.make CMakeFiles/cmTC_d3fbe.dir/build
+        Building C object CMakeFiles/cmTC_d3fbe.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk   -v -Wl,-v -o CMakeFiles/cmTC_d3fbe.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin22-gcc-13
+        Target: aarch64-apple-darwin22
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-13 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 13.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin22 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Homebrew GCC 13.1.0) 
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_d3fbe.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_d3fbe.dir/'
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/cc1 -quiet -v -iprefix /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/ -D__DYNAMIC__ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk /Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_d3fbe.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=14.0.0 -mlittle-endian -mabi=lp64 -version -o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//ccCV6BlM.s
+        GNU C17 (Homebrew GCC 13.1.0) version 13.1.0 (aarch64-apple-darwin22)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        warning: GMP header version 6.2.1 differs from library version 6.3.0.
+        warning: MPFR header version 4.2.0-p4 differs from library version 4.2.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../../../../aarch64-apple-darwin22/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include-fixed"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../../../../aarch64-apple-darwin22/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include-fixed
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+        End of search list.
+        Compiler executable checksum: 73918571eda3ab292ab0c9e1b26abcc5
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_d3fbe.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_d3fbe.dir/'
+         as -arch arm64 -v -mmacosx-version-min=14.0 -o CMakeFiles/cmTC_d3fbe.dir/CMakeCCompilerABI.c.o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//ccCV6BlM.s
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-darwin23.4.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple arm64-apple-macosx14.0.0 -filetype obj -main-file-name ccCV6BlM.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -fdebug-compilation-dir=/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-bHhf1T -dwarf-debug-producer "Apple clang version 15.0.0 (clang-1500.3.9.4)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_d3fbe.dir/CMakeCCompilerABI.c.o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//ccCV6BlM.s
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_d3fbe.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_d3fbe.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_d3fbe
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3fbe.dir/link.txt --verbose=1
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d3fbe.dir/CMakeCCompilerABI.c.o -o cmTC_d3fbe
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin22-gcc-13
+        COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/lto-wrapper
+        Target: aarch64-apple-darwin22
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-13 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 13.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin22 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Homebrew GCC 13.1.0) 
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'cmTC_d3fbe' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_d3fbe.'
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/collect2 -dynamic -arch arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -macosx_version_min 14.0.0 -o cmTC_d3fbe -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d3fbe.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13 -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        collect2 version 13.1.0
+        /Users/hasanbasrierdogan/opt/anaconda3/bin/ld -dynamic -arch arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -macosx_version_min 14.0.0 -o cmTC_d3fbe -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d3fbe.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13 -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        @(#)PROGRAM:ld  PROJECT:ld64-530
+        BUILD 07:42:29 Sep  7 2022
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_d3fbe] Error 1
+        make: *** [cmTC_d3fbe/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt"
+    checks:
+      - "Check for working C compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13"
+    directories:
+      source: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-DCtEXW"
+      binary: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-DCtEXW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-DCtEXW'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a7d19/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a7d19.dir/build.make CMakeFiles/cmTC_a7d19.dir/build
+        Building C object CMakeFiles/cmTC_a7d19.dir/testCCompiler.c.o
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o CMakeFiles/cmTC_a7d19.dir/testCCompiler.c.o -c /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-DCtEXW/testCCompiler.c
+        Linking C executable cmTC_a7d19
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7d19.dir/link.txt --verbose=1
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a7d19.dir/testCCompiler.c.o -o cmTC_a7d19
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_a7d19] Error 1
+        make: *** [cmTC_a7d19/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/3.29.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-g++-13 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-g++-13 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/3.29.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-XHKrnn"
+      binary: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-XHKrnn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-XHKrnn'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ed894/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ed894.dir/build.make CMakeFiles/cmTC_ed894.dir/build
+        Building C object CMakeFiles/cmTC_ed894.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk   -v -Wl,-v -o CMakeFiles/cmTC_ed894.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin22-gcc-13
+        Target: aarch64-apple-darwin22
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-13 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 13.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin22 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Homebrew GCC 13.1.0) 
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_ed894.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_ed894.dir/'
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/cc1 -quiet -v -iprefix /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/ -D__DYNAMIC__ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk /Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_ed894.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=14.0.0 -mlittle-endian -mabi=lp64 -version -o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//cctbqqLB.s
+        GNU C17 (Homebrew GCC 13.1.0) version 13.1.0 (aarch64-apple-darwin22)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        warning: GMP header version 6.2.1 differs from library version 6.3.0.
+        warning: MPFR header version 4.2.0-p4 differs from library version 4.2.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../../../../aarch64-apple-darwin22/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include-fixed"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../../../../aarch64-apple-darwin22/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include-fixed
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+        End of search list.
+        Compiler executable checksum: 73918571eda3ab292ab0c9e1b26abcc5
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_ed894.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_ed894.dir/'
+         as -arch arm64 -v -mmacosx-version-min=14.0 -o CMakeFiles/cmTC_ed894.dir/CMakeCCompilerABI.c.o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//cctbqqLB.s
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-darwin23.4.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple arm64-apple-macosx14.0.0 -filetype obj -main-file-name cctbqqLB.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -fdebug-compilation-dir=/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-XHKrnn -dwarf-debug-producer "Apple clang version 15.0.0 (clang-1500.3.9.4)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_ed894.dir/CMakeCCompilerABI.c.o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//cctbqqLB.s
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_ed894.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_ed894.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_ed894
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed894.dir/link.txt --verbose=1
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ed894.dir/CMakeCCompilerABI.c.o -o cmTC_ed894
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin22-gcc-13
+        COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/lto-wrapper
+        Target: aarch64-apple-darwin22
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-13 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 13.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin22 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Homebrew GCC 13.1.0) 
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'cmTC_ed894' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_ed894.'
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/collect2 -dynamic -arch arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -macosx_version_min 14.0.0 -o cmTC_ed894 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ed894.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13 -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        collect2 version 13.1.0
+        /Users/hasanbasrierdogan/opt/anaconda3/bin/ld -dynamic -arch arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -macosx_version_min 14.0.0 -o cmTC_ed894 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ed894.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13 -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        @(#)PROGRAM:ld  PROJECT:ld64-530
+        BUILD 07:42:29 Sep  7 2022
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_ed894] Error 1
+        make: *** [cmTC_ed894/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt"
+    checks:
+      - "Check for working C compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13"
+    directories:
+      source: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-zHloB3"
+      binary: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-zHloB3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-zHloB3'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6fde2/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6fde2.dir/build.make CMakeFiles/cmTC_6fde2.dir/build
+        Building C object CMakeFiles/cmTC_6fde2.dir/testCCompiler.c.o
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o CMakeFiles/cmTC_6fde2.dir/testCCompiler.c.o -c /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-zHloB3/testCCompiler.c
+        Linking C executable cmTC_6fde2
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fde2.dir/link.txt --verbose=1
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6fde2.dir/testCCompiler.c.o -o cmTC_6fde2
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_6fde2] Error 1
+        make: *** [cmTC_6fde2/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/3.29.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-g++-13 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-g++-13 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/3.29.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-o1NM7r"
+      binary: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-o1NM7r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-o1NM7r'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_84d30/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_84d30.dir/build.make CMakeFiles/cmTC_84d30.dir/build
+        Building C object CMakeFiles/cmTC_84d30.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk   -v -Wl,-v -o CMakeFiles/cmTC_84d30.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin22-gcc-13
+        Target: aarch64-apple-darwin22
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-13 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 13.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin22 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Homebrew GCC 13.1.0) 
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_84d30.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_84d30.dir/'
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/cc1 -quiet -v -iprefix /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/ -D__DYNAMIC__ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk /Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_84d30.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=14.0.0 -mlittle-endian -mabi=lp64 -version -o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//ccfFwTG8.s
+        GNU C17 (Homebrew GCC 13.1.0) version 13.1.0 (aarch64-apple-darwin22)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        warning: GMP header version 6.2.1 differs from library version 6.3.0.
+        warning: MPFR header version 4.2.0-p4 differs from library version 4.2.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../../../../aarch64-apple-darwin22/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include-fixed"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../../../../aarch64-apple-darwin22/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include-fixed
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+        End of search list.
+        Compiler executable checksum: 73918571eda3ab292ab0c9e1b26abcc5
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_84d30.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_84d30.dir/'
+         as -arch arm64 -v -mmacosx-version-min=14.0 -o CMakeFiles/cmTC_84d30.dir/CMakeCCompilerABI.c.o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//ccfFwTG8.s
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-darwin23.4.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple arm64-apple-macosx14.0.0 -filetype obj -main-file-name ccfFwTG8.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -fdebug-compilation-dir=/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-o1NM7r -dwarf-debug-producer "Apple clang version 15.0.0 (clang-1500.3.9.4)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_84d30.dir/CMakeCCompilerABI.c.o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//ccfFwTG8.s
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_84d30.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_84d30.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_84d30
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84d30.dir/link.txt --verbose=1
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_84d30.dir/CMakeCCompilerABI.c.o -o cmTC_84d30
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin22-gcc-13
+        COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/lto-wrapper
+        Target: aarch64-apple-darwin22
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-13 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 13.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin22 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Homebrew GCC 13.1.0) 
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'cmTC_84d30' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_84d30.'
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/collect2 -dynamic -arch arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -macosx_version_min 14.0.0 -o cmTC_84d30 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_84d30.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13 -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        collect2 version 13.1.0
+        /Users/hasanbasrierdogan/opt/anaconda3/bin/ld -dynamic -arch arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -macosx_version_min 14.0.0 -o cmTC_84d30 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_84d30.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13 -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        @(#)PROGRAM:ld  PROJECT:ld64-530
+        BUILD 07:42:29 Sep  7 2022
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_84d30] Error 1
+        make: *** [cmTC_84d30/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt"
+    checks:
+      - "Check for working C compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13"
+    directories:
+      source: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-ja0YOF"
+      binary: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-ja0YOF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-ja0YOF'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_42c47/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_42c47.dir/build.make CMakeFiles/cmTC_42c47.dir/build
+        Building C object CMakeFiles/cmTC_42c47.dir/testCCompiler.c.o
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o CMakeFiles/cmTC_42c47.dir/testCCompiler.c.o -c /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-ja0YOF/testCCompiler.c
+        Linking C executable cmTC_42c47
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42c47.dir/link.txt --verbose=1
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_42c47.dir/testCCompiler.c.o -o cmTC_42c47
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_42c47] Error 1
+        make: *** [cmTC_42c47/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/3.29.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-g++-13 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-g++-13 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/3.29.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-AN4on8"
+      binary: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-AN4on8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-AN4on8'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_37bfa/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_37bfa.dir/build.make CMakeFiles/cmTC_37bfa.dir/build
+        Building C object CMakeFiles/cmTC_37bfa.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk   -v -Wl,-v -o CMakeFiles/cmTC_37bfa.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin22-gcc-13
+        Target: aarch64-apple-darwin22
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-13 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 13.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin22 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Homebrew GCC 13.1.0) 
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_37bfa.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_37bfa.dir/'
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/cc1 -quiet -v -iprefix /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/ -D__DYNAMIC__ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk /Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_37bfa.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=14.0.0 -mlittle-endian -mabi=lp64 -version -o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//ccq7JPa0.s
+        GNU C17 (Homebrew GCC 13.1.0) version 13.1.0 (aarch64-apple-darwin22)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        warning: GMP header version 6.2.1 differs from library version 6.3.0.
+        warning: MPFR header version 4.2.0-p4 differs from library version 4.2.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../../../../aarch64-apple-darwin22/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include-fixed"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../../../../aarch64-apple-darwin22/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include-fixed
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+        End of search list.
+        Compiler executable checksum: 73918571eda3ab292ab0c9e1b26abcc5
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_37bfa.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_37bfa.dir/'
+         as -arch arm64 -v -mmacosx-version-min=14.0 -o CMakeFiles/cmTC_37bfa.dir/CMakeCCompilerABI.c.o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//ccq7JPa0.s
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-darwin23.4.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple arm64-apple-macosx14.0.0 -filetype obj -main-file-name ccq7JPa0.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -fdebug-compilation-dir=/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-AN4on8 -dwarf-debug-producer "Apple clang version 15.0.0 (clang-1500.3.9.4)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_37bfa.dir/CMakeCCompilerABI.c.o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//ccq7JPa0.s
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_37bfa.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_37bfa.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_37bfa
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37bfa.dir/link.txt --verbose=1
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_37bfa.dir/CMakeCCompilerABI.c.o -o cmTC_37bfa
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin22-gcc-13
+        COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/lto-wrapper
+        Target: aarch64-apple-darwin22
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-13 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 13.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin22 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Homebrew GCC 13.1.0) 
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'cmTC_37bfa' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_37bfa.'
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/collect2 -dynamic -arch arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -macosx_version_min 14.0.0 -o cmTC_37bfa -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_37bfa.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13 -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        collect2 version 13.1.0
+        /Users/hasanbasrierdogan/opt/anaconda3/bin/ld -dynamic -arch arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -macosx_version_min 14.0.0 -o cmTC_37bfa -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_37bfa.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13 -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        @(#)PROGRAM:ld  PROJECT:ld64-530
+        BUILD 07:42:29 Sep  7 2022
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_37bfa] Error 1
+        make: *** [cmTC_37bfa/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt"
+    checks:
+      - "Check for working C compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13"
+    directories:
+      source: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-0Af2vK"
+      binary: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-0Af2vK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-0Af2vK'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ac71c/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ac71c.dir/build.make CMakeFiles/cmTC_ac71c.dir/build
+        Building C object CMakeFiles/cmTC_ac71c.dir/testCCompiler.c.o
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o CMakeFiles/cmTC_ac71c.dir/testCCompiler.c.o -c /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-0Af2vK/testCCompiler.c
+        Linking C executable cmTC_ac71c
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac71c.dir/link.txt --verbose=1
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ac71c.dir/testCCompiler.c.o -o cmTC_ac71c
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_ac71c] Error 1
+        make: *** [cmTC_ac71c/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/3.29.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-g++-13 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tbd' for architecture arm64
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin22-g++-13 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/3.29.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-n6tbTk"
+      binary: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-n6tbTk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-n6tbTk'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_51f83/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_51f83.dir/build.make CMakeFiles/cmTC_51f83.dir/build
+        Building C object CMakeFiles/cmTC_51f83.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk   -v -Wl,-v -o CMakeFiles/cmTC_51f83.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin22-gcc-13
+        Target: aarch64-apple-darwin22
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-13 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 13.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin22 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Homebrew GCC 13.1.0) 
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_51f83.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_51f83.dir/'
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/cc1 -quiet -v -iprefix /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/ -D__DYNAMIC__ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk /Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_51f83.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=14.0.0 -mlittle-endian -mabi=lp64 -version -o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//ccYSQq90.s
+        GNU C17 (Homebrew GCC 13.1.0) version 13.1.0 (aarch64-apple-darwin22)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        warning: GMP header version 6.2.1 differs from library version 6.3.0.
+        warning: MPFR header version 4.2.0-p4 differs from library version 4.2.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../../../../aarch64-apple-darwin22/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include-fixed"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../../../../aarch64-apple-darwin22/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/include-fixed
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+        End of search list.
+        Compiler executable checksum: 73918571eda3ab292ab0c9e1b26abcc5
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_51f83.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_51f83.dir/'
+         as -arch arm64 -v -mmacosx-version-min=14.0 -o CMakeFiles/cmTC_51f83.dir/CMakeCCompilerABI.c.o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//ccYSQq90.s
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-darwin23.4.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple arm64-apple-macosx14.0.0 -filetype obj -main-file-name ccYSQq90.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -fdebug-compilation-dir=/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-n6tbTk -dwarf-debug-producer "Apple clang version 15.0.0 (clang-1500.3.9.4)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_51f83.dir/CMakeCCompilerABI.c.o /var/folders/q7/ncdmhg753f5dymxb949dzrfm0000gn/T//ccYSQq90.s
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_51f83.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_51f83.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_51f83
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51f83.dir/link.txt --verbose=1
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_51f83.dir/CMakeCCompilerABI.c.o -o cmTC_51f83
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin22-gcc-13
+        COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/lto-wrapper
+        Target: aarch64-apple-darwin22
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-13 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 13.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin22 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Homebrew GCC 13.1.0) 
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../../
+        COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk' '-v' '-o' 'cmTC_51f83' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_51f83.'
+         /opt/homebrew/Cellar/gcc/13.1.0/bin/../libexec/gcc/aarch64-apple-darwin22/13/collect2 -dynamic -arch arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -macosx_version_min 14.0.0 -o cmTC_51f83 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_51f83.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13 -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        collect2 version 13.1.0
+        /Users/hasanbasrierdogan/opt/anaconda3/bin/ld -dynamic -arch arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -macosx_version_min 14.0.0 -o cmTC_51f83 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13 -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/13.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin22/13/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_51f83.dir/CMakeCCompilerABI.c.o -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13 -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        @(#)PROGRAM:ld  PROJECT:ld64-530
+        BUILD 07:42:29 Sep  7 2022
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc/aarch64-apple-darwin22/13
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current/gcc
+        	/opt/homebrew/Cellar/gcc/13.1.0/lib/gcc/current
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_51f83] Error 1
+        make: *** [cmTC_51f83/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt"
+    checks:
+      - "Check for working C compiler: /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13"
+    directories:
+      source: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-VzxCCo"
+      binary: "/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-VzxCCo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-VzxCCo'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a9acd/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a9acd.dir/build.make CMakeFiles/cmTC_a9acd.dir/build
+        Building C object CMakeFiles/cmTC_a9acd.dir/testCCompiler.c.o
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -o CMakeFiles/cmTC_a9acd.dir/testCCompiler.c.o -c /Users/hasanbasrierdogan/flutterProjects/chat_alpha/build/CMakeFiles/CMakeScratch/TryCompile-VzxCCo/testCCompiler.c
+        Linking C executable cmTC_a9acd
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9acd.dir/link.txt --verbose=1
+        /opt/homebrew/bin/aarch64-apple-darwin22-gcc-13  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a9acd.dir/testCCompiler.c.o -o cmTC_a9acd
+        ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/usr/lib/libSystem.tbd' for architecture arm64
+        collect2: error: ld returned 1 exit status
+        make[1]: *** [cmTC_a9acd] Error 1
+        make: *** [cmTC_a9acd/fast] Error 2
+        
+      exitCode: 2
+...
